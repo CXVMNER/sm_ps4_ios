@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3EEEA22AFA266400BC388B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3EEEA12AFA266400BC388B /* SecondViewController.m */; };
 		3FE623522AF0EAED00809D47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE623512AF0EAED00809D47 /* AppDelegate.m */; };
 		3FE623552AF0EAED00809D47 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE623542AF0EAED00809D47 /* SceneDelegate.m */; };
 		3FE623582AF0EAED00809D47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE623572AF0EAED00809D47 /* ViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F3EEEA02AFA266400BC388B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3F3EEEA12AFA266400BC388B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		3FE6234D2AF0EAED00809D47 /* sm_ps4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sm_ps4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE623502AF0EAED00809D47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FE623512AF0EAED00809D47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 				3FE623562AF0EAED00809D47 /* ViewController.h */,
 				3FE623572AF0EAED00809D47 /* ViewController.m */,
 				3FE623592AF0EAED00809D47 /* Main.storyboard */,
+				3F3EEEA02AFA266400BC388B /* SecondViewController.h */,
+				3F3EEEA12AFA266400BC388B /* SecondViewController.m */,
 				3FE6235F2AF0EAEF00809D47 /* Assets.xcassets */,
 				3FE623612AF0EAEF00809D47 /* LaunchScreen.storyboard */,
 				3FE623642AF0EAEF00809D47 /* Info.plist */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3EEEA22AFA266400BC388B /* SecondViewController.m in Sources */,
 				3FE623662AF0EAEF00809D47 /* main.m in Sources */,
 				3FE623582AF0EAED00809D47 /* ViewController.m in Sources */,
 				3FE6235E2AF0EAED00809D47 /* sm_ps4.xcdatamodeld in Sources */,

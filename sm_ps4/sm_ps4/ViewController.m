@@ -36,4 +36,11 @@
     self.messageLabel.text = message;
 }
 
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if([segue.identifier isEqualToString:@"sendSurnameSegue"])  {
+        SecondViewController *controller = (SecondViewController *) segue.destinationViewController;
+        controller.surname = self.surnameTextField.text;
+    }
+}
+
 @end
