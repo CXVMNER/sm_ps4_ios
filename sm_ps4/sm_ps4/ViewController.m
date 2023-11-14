@@ -36,11 +36,17 @@
     self.messageLabel.text = message;
 }
 
-- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if([segue.identifier isEqualToString:@"sendSurnameSegue"])  {
         SecondViewController *controller = (SecondViewController *) segue.destinationViewController;
+        controller.delegate = self;
         controller.surname = self.surnameTextField.text;
     }
+}
+
+-(void) addItemViewController:(SecondViewController *) controller didFinishEnteringItem:(NSString *) item{
+    NSLog(@"This was returned from SecondViewController %@", item);
+    self.surnameTextField.text = item;
 }
 
 @end

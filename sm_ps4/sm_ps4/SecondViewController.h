@@ -18,13 +18,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@property (nonatomic, weak) id <SecondViewControllerDelegate> delegate;
-
 @interface SecondViewController : UIViewController
 
 @property (nonatomic, weak) IBOutlet UITextField *modifiedSurnameTextField;
 
 @property NSString *surname;
+
+@property (nonatomic, weak) id <SecondViewControllerDelegate> delegate;
 
 @end
 
